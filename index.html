@@ -2,117 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <a class="logo a-reset"> <img src="img/icon/top-logo.svg" alt="logo"> </a>
-        <h1 class="sr-only">Xbox</h1>
-        <nav class="header__nav nav">
-            <ul class="nav__list ul-reset">
-                <li class="nav__item">
-                    <a href="#" class="a-reset nav__link arrow"> Games</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="a-reset nav__link arrow"> Consoles</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="a-reset nav__link">Community</a>
-                </li>
-            </ul>
-        </nav>
-        <input class="header__search" type="search" name="Поиск" id="search" placeholder="Search">
-        <a href="#" class="header__login a-reset">
-            <span class="login__name arrow">My XBOX</span>
-        </a>
-        </nav>
-    </header>
+  <header class="header">
+    <a class="logo a-reset"> <img src="img/icon/top-logo.svg" alt="logo"> </a>
+    <h1 class="sr-only">Xbox</h1>
+    <nav class="header__nav nav">
+      <ul class="nav__list ul-reset">
+        <li class="nav__item">
+          <a href="#" class="a-reset nav__link arrow"> Games</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="a-reset nav__link arrow"> Consoles</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="a-reset nav__link">Community</a>
+        </li>
+      </ul>
+    </nav>
+    <input class="header__search" type="search" name="Поиск" id="search" placeholder="Search">
+    <a href="#" class="header__login a-reset">
+      <span class="login__name arrow">My XBOX</span>
+    </a>
+    </nav>
+  </header>
 
-    <main class="container">
-        <section class="hero ">
-            <div class="hero__slide ">
-                <h3 class="title title--hero">Star Wars </h3>
-                <p class="hero__subtitle subtitle">Battlefront II</p>
-                <p class="hero__discription p-reset"></p>
-                <button class="hero__btn btn btn--green btn--small">Watch Trailer </button>
-                <button class="btn btn--grey btn--small">Explore Games</button>
+  <main class="container">
+    <section class="slider">
+      <div class="swiper">
+        <ul class="swiper-wrapper ul-reset">
+          <!-- Slides -->
+          <li class="swiper-slide">
+            <img class="slide__img" src="img/slider/Star-Wars-Battlefront-II-combat.jpg">
+            <div class="slide__content">
+              <h3 class="title title--slide">Star Wars </h3>
+              <p class="slide__subtitle subtitle">Battlefront II</p>
+              <p class="slide__discription p-reset"></p>
+              <button class="slide__btn btn btn--green btn--small">Watch Trailer </button>
+              <button class="btn btn--grey btn--small">Explore Games</button>
             </div>
-        </section>
-        <!---->
-        <section class="offer content">
-            <div class="offer__content">
-                <img class="offer__icon" src="img/icon/xbox-icon.svg">
-                <h2 class="title title--big"> The best value</h2>
-                <p class="offer__title title"> in games and entertainment </p>
-
-                <ul class="offer__list card ul-reset">
-                    <li class="card__item">
-                        <img class="card__img" src="img/xbox-one-x.jpg" alt="xbox one x">
-                        <div class="card__discription">
-                            <h3 class="card__title">XBOX ONE X</h3>
-                            <p class="card__text">Faster Processing Smoother Gameplay</p>
-                            <button class="card__btn btn btn--green">Explore Consoles & Accessories</button>
-                        </div>
-                    </li>
-                    <li class="card__item">
-                        <img class="card__img" src="img/mixer-logo.jpg" alt="test">
-                        <div class="card__discription">
-                            <h3 class="card__title">mixer Streaming</h3>
-                            <p class="card__text">The Next Generation <br>Of Life Game Streaming</p>
-                            <button class="card__btn btn btn--green">Start Watching mixer</button>
-                        </div>
-                    </li>
-                    <li class="card__item">
-                        <img class="card__img" src="img/logo-gold.jpg" alt="test">
-                        <div class="card__discription">
-                            <h3 class="card__title">Free Games Every Month</h3>
-                            <p class="card__text">Get up to $700 in <br>free games</p>
-                            <button class="card__btn btn btn--green">Get Free Games</button>
-                        </div>
-                    </li>
-                </ul>
-
+          </li>
+          <li class="swiper-slide">
+            <img class="slide__img" src="img/slider/spider-men.jpg">
+            <div class="slide__content">
+              <h3 class="title title--slide">Spider Man</h3>
+              <p class="slide__subtitle subtitle">Miles Morales</p>
+              <p class="slide__discription p-reset"></p>
+              <button class="slide__btn btn btn--green btn--small">Watch Trailer </button>
+              <button class="btn btn--grey btn--small">Explore Games</button>
             </div>
-        </section>
-        <!---->
-        <section class="exclusive">
-            <div class="exclusive__content">
-                <h2 class="exclusive__title title">Exclusive games on XBOX</h2>
-                <ul class="exclusive__list card ul-reset">
+          </li>
+          <li class="swiper-slide"><img class="slide__img" src="img/slider/Far-Cry-6.jpg">
+            <div class="slide__content">
+              <h3 class="title title--slide">Far Cry 6</h3>
+              <p class="slide__subtitle subtitle">Miles Morales</p>
+              <p class="slide__discription p-reset"></p>
+              <button class="slide__btn btn btn--green btn--small">Watch Trailer </button>
+              <button class="btn btn--grey btn--small">Explore Games</button>
+            </div>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+    <!---->
+    <section class="offer content">
+      <div class="offer__content">
+        <img class="offer__icon" src="img/icon/xbox-icon.svg">
+        <h2 class="title title--big"> The best value</h2>
+        <p class="offer__title title"> in games and entertainment </p>
 
-                    <li class="card__item">
-                        <img class="card__img" src="img/exclusive/img-1.jpg" alt="Call of Duty: WWII">
-                        <div class="card__discription">
-                            <h3 class="card__title">Call of Duty: WWII</h3>
-                            <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
-                            <button class="card__btn btn btn--green">See Details</button>
-                        </div>
-                    </li>
+        <ul class="offer__list card ul-reset">
+          <li class="card__item">
+            <img class="card__img" src="img/xbox-one-x.jpg" alt="xbox one x">
+            <div class="card__discription">
+              <h3 class="card__title">XBOX ONE X</h3>
+              <p class="card__text">Faster Processing Smoother Gameplay</p>
+              <button class="card__btn btn btn--green">Explore Consoles & Accessories</button>
+            </div>
+          </li>
+          <li class="card__item">
+            <img class="card__img" src="img/mixer-logo.jpg" alt="test">
+            <div class="card__discription">
+              <h3 class="card__title">mixer Streaming</h3>
+              <p class="card__text">The Next Generation <br>Of Life Game Streaming</p>
+              <button class="card__btn btn btn--green">Start Watching mixer</button>
+            </div>
+          </li>
+          <li class="card__item">
+            <img class="card__img" src="img/logo-gold.jpg" alt="test">
+            <div class="card__discription">
+              <h3 class="card__title">Free Games Every Month</h3>
+              <p class="card__text">Get up to $700 in <br>free games</p>
+              <button class="card__btn btn btn--green">Get Free Games</button>
+            </div>
+          </li>
+        </ul>
 
-                    <li class="card__item">
-                        <img class="card__img" src="img/exclusive/img-2.jpg" alt="Destiny 2">
-                        <div class="card__discription">
-                            <h3 class="card__title">Destiny 2</h3>
-                            <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
-                            <button class="card__btn btn btn--green">See Details</button>
-                        </div>
-                    </li>
+      </div>
+    </section>
+    <!---->
+    <section class="exclusive">
+      <div class="exclusive__content">
+        <h2 class="exclusive__title title">Exclusive games on XBOX</h2>
+        <ul class="exclusive__list card ul-reset">
 
-                    <li class="card__item">
-                        <img class="card__img" src="img/exclusive/img-3.jpg" alt="STEEPI">
-                        <div class="card__discription">
-                            <h3 class="card__title">STEEP</h3>
-                            <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
-                            <button class="card__btn btn btn--green">See Details</button>
-                        </div>
-                    </li>
+          <li class="card__item">
+            <img class="card__img" src="img/exclusive/img-1.jpg" alt="Call of Duty: WWII">
+            <div class="card__discription">
+              <h3 class="card__title">Call of Duty: WWII</h3>
+              <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
+              <button class="card__btn btn btn--green">See Details</button>
+            </div>
+          </li>
 
-                    <!--<li class="card__item">
+          <li class="card__item">
+            <img class="card__img" src="img/exclusive/img-2.jpg" alt="Destiny 2">
+            <div class="card__discription">
+              <h3 class="card__title">Destiny 2</h3>
+              <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
+              <button class="card__btn btn btn--green">See Details</button>
+            </div>
+          </li>
+
+          <li class="card__item">
+            <img class="card__img" src="img/exclusive/img-3.jpg" alt="STEEPI">
+            <div class="card__discription">
+              <h3 class="card__title">STEEP</h3>
+              <p class="card__text">The C.O.D.E. Bravery Pack is now available in WWII</p>
+              <button class="card__btn btn btn--green">See Details</button>
+            </div>
+          </li>
+
+          <!--<li class="card__item">
                         <img class="card__img" src="img/exclusive/img-4.jpg" alt="Forza Motorsport 7">
                         <div class="card__discription">
                             <h3 class="card__title">Forza Motorsport 7</h3>
@@ -120,77 +151,91 @@
                             <button class="card__btn btn btn--green">See Details</button>
                         </div>
                     </li>-->
-                </ul>
-                <button class="exclusive__btn btn btn--grey">XBOX Store</button>
-            </div>
-        </section>
-        <!---->
-        <section class="device content">
-            <div class="device__content">
-                <h2 class="device__title title title--big">Xbox Design Lab</h2>
-                <p class="device__subtitle subtitle">Make yours one in a billion with new colors, metallic finishes and rubberized grips.</p>
-                <button class="device__btn btn btn--grey btn--grey-big">Design Yours</button>
-                <button class="btn btn--green">Explore Consoles & Accessories</button>
-            </div>
-        </section>
-    </main>
-    <footer class="container footer">
-        <div class="footer__content">
-            <div class="footer__list">
-                <h3 class="footer__title title title--green">XBOX</h3>
-                <ul class="footer__nav footer-nav ul-reset">
-                    <li class="footer-nav__item">
-                        <a href="#" class="a-reset footer-nav__link "> Support</a>
-                    </li>
-                    <li class="footer-nav__item">
-                        <a href="#" class="a-reset footer-nav__link "> Contact us</a>
-                    </li>
-                    <li class="footer-nav__item">
-                        <a href="#" class="a-reset footer-nav__link "> Privacy & cookies </a>
-                    </li>
-                    <li class="footer-nav__item">
-                        <a href="#" class="a-reset footer-nav__link "> Terms of use </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__list">
-                <h3 class="footer__title title title--green">Developers</h3>
-                <ul class="footer__other other ul-reset">
-                    <li class="other__item">
-                        <a href="#" class="a-reset other__link"> Games</a>
-                    </li>
-                    <li class="other__item">
-                        <a href="#" class="a-reset other__link"> Windows 10</a>
-                    </li>
-                    <li class="other__item">
-                        <a href="#" class="a-reset other__link"> Creators Program</a>
-                    </li>
-                    <li class="other__item">
-                        <a href="#" class="a-reset other__link"> Designed for XBOX</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__list">
-                <h3 class="footer__title title title--green">Follow Us</h3>
-                <ul class="footer__social social ul-reset">
-                    <li class="social__item">
-                        <a href="#" class="social__link social__link--inst" target="blank"></a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link social__link--twitter" target="blank"></a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link social__link--facebook" target="blank"></a>
-                    </li>
-                </ul>
-            </div>
+        </ul>
+        <button class="exclusive__btn btn btn--grey">XBOX Store</button>
+      </div>
+    </section>
+    <!---->
+    <section class="device content">
+      <div class="device__content">
+        <h2 class="device__title title title--big">Xbox Design Lab</h2>
+        <p class="device__subtitle subtitle">Make yours one in a billion with new colors, metallic finishes and rubberized grips.</p>
+        <button class="device__btn btn btn--grey btn--grey-big">Design Yours</button>
+        <button class="btn btn--green">Explore Consoles & Accessories</button>
+      </div>
+    </section>
+  </main>
+  <footer class="container footer">
+    <div class="footer__content">
+      <div class="footer__list">
+        <h3 class="footer__title title title--green">XBOX</h3>
+        <ul class="footer__nav footer-nav ul-reset">
+          <li class="footer-nav__item">
+            <a href="#" class="a-reset footer-nav__link "> Support</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="a-reset footer-nav__link "> Contact us</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="a-reset footer-nav__link "> Privacy & cookies </a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="a-reset footer-nav__link "> Terms of use </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <h3 class="footer__title title title--green">Developers</h3>
+        <ul class="footer__other other ul-reset">
+          <li class="other__item">
+            <a href="#" class="a-reset other__link"> Games</a>
+          </li>
+          <li class="other__item">
+            <a href="#" class="a-reset other__link"> Windows 10</a>
+          </li>
+          <li class="other__item">
+            <a href="#" class="a-reset other__link"> Creators Program</a>
+          </li>
+          <li class="other__item">
+            <a href="#" class="a-reset other__link"> Designed for XBOX</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <h3 class="footer__title title title--green">Follow Us</h3>
+        <ul class="footer__social social ul-reset">
+          <li class="social__item">
+            <a href="#" class="social__link" target="blank">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7415 0H2.25846C1.01107 0 0 1.00848 0 2.25328V16.7467C0 17.991 1.01107 19 2.25846 19H16.7415C17.9889 19 19 17.991 19 16.7467V2.25328C19 1.00848 17.9889 0 16.7415 0ZM13.6565 2.96844C13.6565 2.64092 13.9223 2.37506 14.2499 2.37506H16.031C16.3591 2.37506 16.6249 2.64092 16.6249 2.96844V4.75013C16.6249 5.07765 16.3591 5.34351 16.031 5.34351H14.2499C13.9223 5.34351 13.6565 5.07765 13.6565 4.75013V2.96844ZM9.52203 5.87677C11.54 5.87677 13.1761 7.50921 13.1761 9.52203C13.1761 11.5354 11.54 13.1673 9.52203 13.1673C7.50454 13.1673 5.86848 11.5354 5.86848 9.52203C5.86848 7.50921 7.50454 5.87677 9.52203 5.87677ZM17.2188 16.6249C17.2188 16.9525 16.953 17.2188 16.6249 17.2188H2.37506C2.04702 17.2188 1.78117 16.9525 1.78117 16.6249V7.71857H4.15623C3.84685 8.16373 3.74217 8.99446 3.74217 9.52203C3.74217 12.7014 6.33541 15.2884 9.52203 15.2884C12.7092 15.2884 15.3024 12.7014 15.3024 9.52203C15.3024 8.99446 15.2273 8.17669 14.8438 7.71857H17.2188V16.6249Z" fill="#8DD83D"/>
+                </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link" target="blank">
+              <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4208 0.332767C19.5876 0.852969 18.6669 1.2313 17.6829 1.43373C16.899 0.551344 15.7787 0 14.5385 0C12.1611 0 10.2317 2.03467 10.2317 4.54397C10.2317 4.90039 10.2687 5.24584 10.3427 5.57861C6.76208 5.38887 3.58794 3.58201 1.46175 0.829323C1.09057 1.50293 0.878621 2.28439 0.878621 3.11659C0.878621 4.69219 1.63893 6.08324 2.79566 6.89814C2.0903 6.87623 1.42475 6.66976 0.842736 6.33181V6.38717C0.842736 8.58966 2.32804 10.4271 4.30059 10.8429C3.9395 10.9496 3.55822 11.0032 3.16517 11.0032C2.88762 11.0032 2.6168 10.9756 2.35439 10.9225C2.90276 12.7271 4.49291 14.0414 6.37855 14.0766C4.90447 15.2958 3.04574 16.0224 1.02777 16.0224C0.680132 16.0224 0.336422 16.0017 0 15.9601C1.90639 17.2474 4.17219 18 6.60452 18C14.5301 18 18.8626 11.0771 18.8626 5.07167C18.8626 4.87386 18.8592 4.67662 18.8519 4.48284C19.6936 3.84211 20.4247 3.0422 21 2.13098C20.2285 2.49201 19.3975 2.73654 18.5262 2.84611C19.416 2.28439 20.0989 1.39393 20.4208 0.332767Z" fill="#8DD83D"/>
+                </svg>
 
-        </div>
-        <div class="footer__copyright">
-            <p class="p-reset footer__sity-company">English (United States)</p>
-            <p class="p-reset footer__name-company">© MyCompany 2021</p>
-        </div>
-    </footer>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link" target="blank">
+              <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.13988 20V10.8771H10.3831L10.8687 7.3217H7.13988V5.05172C7.13988 4.02235 7.44258 3.32089 9.006 3.32089L11 3.32V0.14008C10.655 0.0968294 9.47145 0 8.09444 0C5.21955 0 3.25144 1.65687 3.25144 4.69971V7.3217H0V10.8771H3.25144V20H7.13988Z" fill="#8DD83D"/>
+                </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__copyright">
+      <p class="p-reset footer__sity-company">English (United States)</p>
+      <p class="p-reset footer__name-company">© MyCompany 2021</p>
+    </div>
+  </footer>
+  <script src="js/slider.js"></script>
 </body>
 
 
